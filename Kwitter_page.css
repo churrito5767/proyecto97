@@ -1,0 +1,41 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+    background-color: rgb(180, 236, 255);
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+#logout
+{
+	font-size: 20px;
+    float: right;
+}
+
+#message_div
+{
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    bottom: 0px;
+}
+
+#messageInput
+{
+    height: 80%;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
